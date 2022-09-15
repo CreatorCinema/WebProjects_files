@@ -1,0 +1,60 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    height: 150px;
+    background: #6CAEDD;
+    color: #fff;
+}
+
+
+
+.content-wrapper {
+    background-color: blanchedalmond;
+}
+
+.content {
+    width: 95%;
+    height: 100%;
+}
+
+.button_b{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    opacity: 30%;
+}
+
+
+
+
+.content-wrapper{
+    height: 400%;
+}
+
+
+.logo{
+    width: 5em;
+}
+
+h1{
+    color: rgb(10, 12, 141);
+    margin: 0;
+    text-align: center;
+    background-color: cornflowerblue;
+}
+
+.sky{
+    font-size: 30px;
+    padding: 50px;
+}
+
+.rock{
+    color: black;
+    background-color: cadetblue;
+    font-size: 47px;
+}

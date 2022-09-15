@@ -1,0 +1,426 @@
+/* .clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+} */
+
+html {}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0;
+    color: #333;
+    background-color: #fff;
+}
+
+
+/* .header, */
+
+
+/* .content-wrapper, */
+
+
+/* .footer,  */
+
+.container,
+.content {
+    display: flex;
+    flex-direction: row;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    height: 180px;
+    width: 100%;
+    background: #6CAEDD;
+    color: #fff;
+    /* flex: none; */
+}
+
+#logo {
+    /* display: flex; */
+    /* width: 25%; */
+    height: 100%;
+}
+
+.logo_img {
+    width: 100%;
+    height: 100%;
+    min-width: 80%;
+    min-height: 80%;
+}
+
+.p_header {
+    font-size: 30px;
+    margin: 0;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.header_menu {
+    font-size: 156%;
+    margin-left: 25px;
+}
+
+.sky {
+    /* display: inline; */
+    /* padding-right: 1.5rem; */
+    /* padding-left: 1%; */
+    /* text-align: left; */
+    /* font-size: 199%; */
+    padding: 3px;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.market_logo {
+    width: 70px;
+}
+
+
+/* #market_bag {
+    display: flex;
+    width: 50%;
+    height: 50%;
+} */
+
+.bishop {
+    display: inline;
+    padding-right: 1.5rem;
+    padding-left: 1%;
+    text-align: left;
+    font-size: 150%;
+    text-decoration: none;
+}
+
+
+/* .content-wrapper {
+    margin: 0 auto;
+    flex-direction: column;
+    height: 100%;
+    min-width: 800px;
+    max-width: 2000px;
+} */
+
+.container {
+    /* flex-wrap: nowrap;
+    flex: 1 0 auto; */
+}
+
+.content {
+    /* width: 100%; */
+    flex-direction: column;
+    /* flex: 1 1 auto; */
+    /* order: 0; */
+    /* order: 1; */
+    background: -webkit-linear-gradient(90deg, #d8ffa8, #cdff8f, #bfff70);
+    background: linear-gradient(90deg, #d8ffa8, #cdff8f, #bfff70);
+}
+
+.header_content {
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+    padding: 1.5em 0;
+}
+
+.p_text {
+    text-align: justify;
+    margin: 0 25px 15px 15px;
+}
+
+.sidebar {
+    width: 20%;
+    background: #FFD399;
+    flex: 0 0 auto;
+}
+
+.sidebar1 {
+    /* width: 200px; */
+    /* order: 1; */
+    /* order: 0; */
+}
+
+.sidebar2 {
+    /* display: none; */
+    /* width: 200px; */
+    /* order: 2; */
+    /* order: 2; */
+}
+
+.sidebar_list {
+    list-style: none;
+    margin-top: 30px;
+}
+
+.sidebar_list-item:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+a,
+h3 {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer {}
+
+.footer_container {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    background: #364850;
+    color: #fff;
+}
+
+.footer_header {
+    font-size: 30px;
+    margin-left: 30px;
+    /* padding: 10px 1em; */
+}
+
+.foot_li {
+    margin-left: 50px;
+    list-style: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    color: #bfff70;
+    padding: 5px;
+}
+
+.foot_li-item {
+    margin-right: 20px;
+}
+
+.button_b {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    opacity: 51%;
+}
+
+#button_bb{
+    width: 5.8rem;
+    height: 5.8rem;
+}
+
+.p_text2{
+    color: rgba(210, 24, 139, 0.951);
+    background-color: #75a837;
+    font-size: larger;
+    font: 2.3em sans-serif;
+}
+
+#sky1{
+    background-color: #3c6beb84;
+}
+
+#sky2{
+    background-color: #2796c5bc;
+}
+
+#sky3{
+    background-color: #699bb0;
+}
+
+@media screen and (max-width: 1353px) {
+    
+    .sky {
+        padding: 3px;
+        margin-right: 10px;
+        margin: 1%;
+        text-decoration: none;
+        display: inline-block;
+    }
+
+}
+
+@media screen and (max-width: 1139px) {
+
+    .logo_img {
+        width: 90%;
+        height: 90%;
+    }
+
+    .header {
+        display: flex;
+        align-items: center;
+        height: 120px;
+        width: 100%;
+        background: #6CAEDD;
+        color: #fff;
+        /* flex: none; */
+    }
+
+    #button_bb{
+        width: 5.7rem;
+        height: 5.7rem;
+    }
+
+}
+
+
+@media screen and (max-width: 1054px) {
+
+    .logo_img {
+        width: 80%;
+        height: 80%;
+    }
+
+    .header {
+        display: flex;
+        align-items: center;
+        height: 100px;
+        width: 100%;
+        background: #6CAEDD;
+        color: #fff;
+        /* flex: none; */
+    }
+    #button_bb{
+        width: 5.3rem;
+        height: 5.3rem;
+    }
+}
+
+
+
+@media screen and (max-width: 961px) {
+
+    .logo_img {
+        width: 80%;
+        height: 80%;
+    }
+
+    .header {
+        display: flex;
+        align-items: center;
+        height: 100px;
+        width: 100%;
+        background: #6CAEDD;
+        color: #fff;
+        /* flex: none; */
+    }
+
+    .p_header {
+        font-size: 20px;
+        margin: 0;
+        padding: 5px;
+        margin-right: 10px;
+    }
+
+
+    .sky {
+        padding: 3px;
+        margin-right: 10px;
+        margin: 1%;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 0.8em;
+    }
+
+    #button_bb{
+        width: 5rem;
+        height: 5rem;
+    }
+
+}
+
+
+@media screen and (max-width: 961px) {
+    .logo_img {
+        width: 70%;
+        height: 70%;
+    }  
+
+    #button_bb{
+        width: 4.8rem;
+        height: 4.8rem;
+    }
+}
+
+
+@media screen and (max-width: 702px) {
+    .logo_img {
+        width: 60%;
+        height: 60%;
+    }  
+        .bishop {
+    display: inline;
+    padding-right: 1.5rem;
+    padding-left: 1%;
+    text-align: left;
+    font-size: 130%;
+    text-decoration: none;
+}
+    #button_bb{
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+}
+
+
+
+@media screen and (max-width: 635px) {
+    
+            .bishop {
+        display: inline;
+        padding-right: 1.5rem;
+        padding-left: 1%;
+        text-align: left;
+        font-size: 110%;
+        text-decoration: none;
+        }
+
+        #button_bb{
+            width: 2.8rem;
+            height: 2.8rem;
+        }
+
+}
+
+
+
+@media screen and (max-width: 575px) {
+    
+            .bishop {
+        display: inline;
+        padding-right: 1.5rem;
+        padding-left: 1%;
+        text-align: left;
+        font-size: 99%;
+        text-decoration: none;
+        }
+
+        #button_bb{
+            width: 2rem;
+            height: 2rem;
+        }
+
+}
+
+
+@media screen and (max-width: 539px) {
+            
+            .bishop {
+        display: inline;
+        padding-right: 1.5rem;
+        padding-left: 1%;
+        text-align: left;
+        font-size: 79%;
+        text-decoration: none;
+        }
+
+
+        .sidebar {
+            width: 20%;
+            background: #FFD399;
+            flex: 0 0 auto;
+        }
+
+}
+
